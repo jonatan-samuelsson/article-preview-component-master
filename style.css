@@ -257,6 +257,12 @@ body {
         background-color: var(--clr-grey-900);
         padding: var(--space-400);
 
+        opacity: 1;
+        transform: scaleY(1);
+        transform-origin: bottom;
+
+        transition: all linear 400ms;
+
         h2 {
             color: var(--clr-grey-400);
             margin-right: var(--space-300);
@@ -272,7 +278,10 @@ body {
             }
     }
         &.hidden {
-            display: none;
+            
+            transform: scaleY(0);
+            opacity: 0;
+            transition: all linear 400ms;
         }
     }
 
