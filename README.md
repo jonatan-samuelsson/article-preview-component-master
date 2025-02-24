@@ -51,7 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-Th JS was very strraightforward and unchallenging, but i got to practice positioning ablsolute a lot, which was very helpful
+Th JS was very straightforward and unchallenging, but i got to practice positioning ablsolute a lot, which was very helpful
 
 
 
